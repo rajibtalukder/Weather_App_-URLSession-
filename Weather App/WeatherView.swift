@@ -69,7 +69,7 @@ struct WeatherMetricsDisplay: View {
     
     var body: some View {
         VStack(spacing: 16) {
-            Text("data.name")
+            Text("name")
                 .font(.system(size: 40, weight: .bold, design: .rounded))
                 .foregroundColor(.white)
             
